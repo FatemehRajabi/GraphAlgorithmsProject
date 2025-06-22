@@ -16,4 +16,8 @@ public class Edge {
     public String getDestination() { return destination; }
     public int getWeight() { return weight; }
 
+    @Override
+    public String toString() {
+        return source + " -> " + destination + " (" + weight + ")";
+    }
 }
