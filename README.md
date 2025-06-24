@@ -10,12 +10,17 @@ This Java project implements:
 ## Input Format
 
 Each graph file (e.g., `graph1.txt`) follows this format:
-<Nodes> <Edges> <D|U>
-<From> <To> <Weight>
-...
-<Source Node>
 
-- `D` = Directed, `U` = Undirected
+Nodes Edges D|U 
+
+From To Weight
+
+...
+
+Source Node
+
+
+(D = Directed, U = Undirected)
 
 ---
 
