@@ -59,7 +59,8 @@ public class Dijkstra {
         }
 
         Collections.reverse(path);
-        System.out.println(String.join(" → ", path));
+        System.out.println(String.join(" -> ", path));
+        System.out.println();
 
     }
 }
